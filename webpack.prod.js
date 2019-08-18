@@ -1,7 +1,7 @@
 const path = require('path')
 const merge = require('webpack-merge') // tools to merge two or more webpack configs
 const HtmlWebpackPlugin = require('html-webpack-plugin') // generate html file
-const { CleanWebpackPlugin } = require('clean-webpack-plugin') // remove all files in buil directory
+const { CleanWebpackPlugin } = require('clean-webpack-plugin') // remove all files in build directory
 const MiniCssExtractPlugin = require('mini-css-extract-plugin') // extract css into file
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin') // css minifier
 const TerserPlugin = require('terser-webpack-plugin') // default js minifier

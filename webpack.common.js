@@ -14,7 +14,7 @@ module.exports = {
 			},
 			{
 				test: /\.html$/,
-				use: ['html-loader'] // to require the src attiribute in html element
+				use: ['html-loader'] // to require the src attribute in html element
 			},
 			{
 				test: /\.(svg|png|jpg|gif)$/,
